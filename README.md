@@ -23,41 +23,41 @@ curl "https://pypi.edgecompute.app/?name=<python package name here>"
 <code><pre>
 Summary:
   Success rate:	1.0000
-  Total:	0.6317 secs
-  Slowest:	0.2490 secs
-  Fastest:	0.0795 secs
-  Average:	0.1394 secs
-  Requests/sec:	316.6078
+  Total:	0.9805 secs
+  Slowest:	0.4689 secs
+  Fastest:	0.1284 secs
+  Average:	0.2127 secs
+  Requests/sec:	203.9857
 
   Total data:	800 B
   Size/request:	4 B
-  Size/sec:	1.24 KiB
+  Size/sec:	815 B
 
 Response time histogram:
-  0.079 [1]  |
-  0.096 [9]  |■■■■
-  0.113 [35] |■■■■■■■■■■■■■■■■■■
-  0.130 [62] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-  0.147 [35] |■■■■■■■■■■■■■■■■■■
-  0.164 [11] |■■■■■
-  0.181 [15] |■■■■■■■
-  0.198 [13] |■■■■■■
-  0.215 [12] |■■■■■■
-  0.232 [3]  |■
-  0.249 [4]  |■■
+  0.128 [1]  |
+  0.162 [52] |■■■■■■■■■■■■■■■■■■■■■■
+  0.196 [73] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.231 [23] |■■■■■■■■■■
+  0.265 [9]  |■■■
+  0.299 [10] |■■■■
+  0.333 [0]  |
+  0.367 [19] |■■■■■■■■
+  0.401 [12] |■■■■■
+  0.435 [0]  |
+  0.469 [1]  |
 
 Latency distribution:
-  10% in 0.1046 secs
-  25% in 0.1154 secs
-  50% in 0.1277 secs
-  75% in 0.1559 secs
-  90% in 0.1959 secs
-  95% in 0.2078 secs
-  99% in 0.2442 secs
+  10% in 0.1465 secs
+  25% in 0.1605 secs
+  50% in 0.1832 secs
+  75% in 0.2483 secs
+  90% in 0.3631 secs
+  95% in 0.3681 secs
+  99% in 0.3789 secs
 
 Details (average, fastest, slowest):
-  DNS+dialup:	0.1071 secs, 0.0623 secs, 0.2170 secs
-  DNS-lookup:	0.0154 secs, 0.0000 secs, 0.1025 secs
+  DNS+dialup:	0.1144 secs, 0.0627 secs, 0.2131 secs
+  DNS-lookup:	0.0165 secs, 0.0000 secs, 0.0895 secs
 
 Status code distribution:
   [200] 200 responses
@@ -75,41 +75,41 @@ Status code distribution:
 <code><pre>
 Summary:
   Success rate:	1.0000
-  Total:	0.5977 secs
-  Slowest:	0.2296 secs
-  Fastest:	0.0875 secs
-  Average:	0.1349 secs
-  Requests/sec:	334.6323
+  Total:	0.8519 secs
+  Slowest:	0.4429 secs
+  Fastest:	0.1152 secs
+  Average:	0.1867 secs
+  Requests/sec:	234.7626
 
   Total data:	1000 B
   Size/request:	5 B
-  Size/sec:	1.63 KiB
+  Size/sec:	1.15 KiB
 
 Response time histogram:
-  0.088 [1]  |
-  0.102 [24] |■■■■■■■■■■■■■
-  0.116 [59] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-  0.130 [44] |■■■■■■■■■■■■■■■■■■■■■■■
-  0.144 [18] |■■■■■■■■■
-  0.159 [3]  |■
-  0.173 [8]  |■■■■
-  0.187 [6]  |■■■
-  0.201 [22] |■■■■■■■■■■■
-  0.215 [8]  |■■■■
-  0.230 [7]  |■■■
+  0.115 [1]  |
+  0.148 [22] |■■■■■■■■
+  0.181 [87] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.214 [47] |■■■■■■■■■■■■■■■■■
+  0.246 [26] |■■■■■■■■■
+  0.279 [14] |■■■■■
+  0.312 [1]  |
+  0.345 [1]  |
+  0.377 [0]  |
+  0.410 [0]  |
+  0.443 [1]  |
 
 Latency distribution:
-  10% in 0.0996 secs
-  25% in 0.1072 secs
-  50% in 0.1195 secs
-  75% in 0.1629 secs
-  90% in 0.1951 secs
-  95% in 0.2140 secs
-  99% in 0.2187 secs
+  10% in 0.1473 secs
+  25% in 0.1576 secs
+  50% in 0.1777 secs
+  75% in 0.2057 secs
+  90% in 0.2413 secs
+  95% in 0.2586 secs
+  99% in 0.3441 secs
 
 Details (average, fastest, slowest):
-  DNS+dialup:	0.1090 secs, 0.0654 secs, 0.1905 secs
-  DNS-lookup:	0.0106 secs, 0.0000 secs, 0.0752 secs
+  DNS+dialup:	0.1061 secs, 0.0571 secs, 0.1900 secs
+  DNS-lookup:	0.0123 secs, 0.0000 secs, 0.1122 secs
 
 Status code distribution:
   [200] 200 responses

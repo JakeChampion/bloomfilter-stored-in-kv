@@ -1,0 +1,31 @@
+# This file describes a Fastly Compute package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["jchampion@fastly.com"]
+description = ""
+language = "rust"
+manifest_version = 3
+name = "pypi_name_demo"
+service_id = "PnslPY7C1OnuqCKblyDVv4"
+
+[local_server]
+
+  [local_server.backends]
+
+  [local_server.kv_stores]
+
+    [[local_server.kv_stores.pypi]]
+      file = "names.json"
+      key = "names"
+
+[setup]
+  [setup.kv_stores]
+
+    [setup.kv_stores.pypi]
+      description = ""
+
+      [setup.kv_stores.pypi.items]
+
+        [setup.kv_stores.pypi.items.names]
+          file = "names.json"
+
